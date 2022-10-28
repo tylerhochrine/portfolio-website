@@ -1,0 +1,19 @@
+.Header {
+  text-align: left;
+}
+
+.Header-text {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ddedfd;
+  line-height: 1.1em;
+}
+
+.Subheader-text {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ccd5ea;
+  line-height: 1.6em;
+}

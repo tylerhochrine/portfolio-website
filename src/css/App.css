@@ -1,0 +1,15 @@
+.App {
+  background: #212e52;
+  text-align: center;
+}
+
+.Content {
+  background: linear-gradient(180deg, #0d192d 0%, #212e52 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 18vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}

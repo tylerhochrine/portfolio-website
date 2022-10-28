@@ -1,0 +1,19 @@
+.Navbar {
+  background: #0d192d;
+}
+
+.Navbar-item {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  color: #028090;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.Navbar-item:hover {
+  color: rgba(2, 128, 144, 0.6);
+}
+
+.active {
+  color: rgba(2, 128, 144, 0.5) !important;
+}
