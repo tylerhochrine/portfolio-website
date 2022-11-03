@@ -1,0 +1,69 @@
+.Project-right-container {
+  text-align: left;
+  margin-bottom: 20vh;
+}
+
+.Snake-demo {
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  width: 90%;
+}
+
+.Project-header-text {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #028090;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+}
+
+.Project-text {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #ddedfd;
+  line-height: 1.4em;
+}
+
+.Project-info {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  line-height: 2.2em;
+  color: #ccd5ea;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+.List-item {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  line-height: 2.2em;
+  color: #ccd5ea;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  list-style-position: inside;
+}
+
+.Project-button {
+  width: auto;
+  color: #ffffff;
+  border-width: 3px;
+  border-color: #028090;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  line-height: 1.7em;
+  margin-right: 15px;
+}
+
+.Project-button:hover {
+  border-color: #028090;
+  background-color: rgba(2, 128, 144, 0.5);
+}
+
+.Project-github-icon {
+  color: white;
+}

@@ -1,8 +1,16 @@
-.Header {
+.Intro-container {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0d192d 0%, #212e52 100%);
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 28vh;
+}
+
+.Intro-header {
   text-align: left;
 }
 
-.Header-text {
+.Intro-header-text {
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-weight: 700;
   font-size: 50px;
@@ -16,4 +24,27 @@
   font-size: 18px;
   color: #ccd5ea;
   line-height: 1.6em;
+}
+
+.Buttons-container {
+  margin-top: 2vh;
+}
+
+.Intro-button {
+  color: #ffffff;
+  border-width: 3px;
+  border-color: #028090;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  line-height: 1.7em;
+  margin-right: 15px;
+}
+
+.Intro-button:hover {
+  border-color: #028090;
+  background-color: rgba(2, 128, 144, 0.5);
 }

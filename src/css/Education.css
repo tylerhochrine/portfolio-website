@@ -1,0 +1,48 @@
+.Education-container {
+  min-height: 100vh;
+  padding-top: 20vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.Clemson-pic {
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  width: 80%;
+}
+
+.Education-header-text {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #028090;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+}
+
+.College-text {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #ddedfd;
+  line-height: 1.4em;
+}
+
+.Education-text {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  line-height: 2.2em;
+  color: #ccd5ea;
+  padding-bottom: 1em;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+.List-item {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  line-height: 2.2em;
+  color: #ccd5ea;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  list-style-position: inside;
+}

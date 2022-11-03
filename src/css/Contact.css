@@ -1,0 +1,104 @@
+.Contact-container {
+  min-height: 100vh;
+  padding-top: 20vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.Contact-title {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #ddedfd;
+  line-height: 1.2em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Contact-text {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 16px;
+  color: #ccd5ea;
+  line-height: 2.2em;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Contact-button {
+  color: #ffffff;
+  border-width: 3px;
+  border-color: #028090;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  line-height: 1.7em;
+  margin-right: 15px;
+}
+
+.Contact-button:hover {
+  border-color: #028090;
+  background-color: rgba(2, 128, 144, 0.5);
+}
+
+.Bottom-container {
+  padding-top: 18vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact-header-text {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #028090;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+  margin-bottom: 5vh;
+}
+
+.Contact-method {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  color: #ddedfd;
+  text-decoration: none;
+  margin-bottom: 2vh;
+}
+
+.Contact-method:hover {
+  color: #ddedfd;
+}
+
+.Contact-icon {
+  font-size: 24px;
+  color: #028090;
+  font-weight: 400;
+  margin-right: 2vw;
+}
+
+.Social-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5vh;
+}
+
+.Social-bubble {
+  width: 4em;
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccd5ea;
+  border-radius: 100px;
+  border: 3px solid #b5bccc;
+  margin-right: 2.5vw;
+}
+
+.Linkedin-icon {
+  color: #2867b2;
+}
+
+.Github-icon {
+  color: black;
+}

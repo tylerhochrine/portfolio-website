@@ -1,0 +1,14 @@
+.Projects-container {
+  min-height: 100vh;
+  padding-top: 20vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.Projects-header {
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  color: #ddedfd;
+  padding-bottom: 10vh;
+}
