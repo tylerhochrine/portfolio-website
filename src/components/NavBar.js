@@ -10,12 +10,12 @@ function NavBar() {
           <Nav.Link className="Navbar-item" href="#intro">
             Intro
           </Nav.Link>
-          <Nav.Link className="Navbar-item" href="#education">
-            About Me
-          </Nav.Link>
           <Nav.Link className="Navbar-item" href="#portfolio">
             Portfolio
           </Nav.Link>
+          {/* <Nav.Link className="Navbar-item" href="#education">
+            About Me
+          </Nav.Link> */}
           <Nav.Link className="Navbar-item" href="#contact">
             Contact
           </Nav.Link>

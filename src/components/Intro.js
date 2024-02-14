@@ -10,11 +10,14 @@ function Intro() {
         <h4 className="Subheader-text">{Constants.H4Text}</h4>
       </div>
       <div className="Buttons-container">
-        <Button href="#education" className="Intro-button">
-          About Me
-        </Button>
         <Button href="#portfolio" className="Intro-button">
           My Portfolio
+        </Button>
+        <Button
+          href="https://www.linkedin.com/in/tyler-hochrine/"
+          className="Intro-button"
+        >
+          LinkedIn
         </Button>
       </div>
     </div>

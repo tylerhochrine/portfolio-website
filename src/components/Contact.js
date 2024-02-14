@@ -1,7 +1,7 @@
 import "../css/Contact.css";
 import * as Constants from "../constants/index.js";
 import Button from "react-bootstrap/Button";
-import ResumePDF from "../img/Tyler_Hochrine.pdf";
+import ResumePDF from "../img/Tyler_Hochrine_Resume.pdf";
 import { TfiEmail, TfiLinkedin } from "react-icons/tfi";
 import { TbMessageCircle2 } from "react-icons/tb";
 import { GoMarkGithub } from "react-icons/go";
@@ -16,7 +16,7 @@ function Contact() {
           href="https://www.github.com/tylerhochrine/"
           className="Contact-button"
         >
-          Portfolio
+          Portfolio <GoMarkGithub className="Project-github-icon" />
         </Button>
         <Button href={ResumePDF} className="Contact-button">
           Resume
@@ -30,7 +30,7 @@ function Contact() {
         <a className="Contact-method" href="sms:+18643855844">
           <TbMessageCircle2 className="Contact-icon" /> (864) 385-5844
         </a>
-        <div className="Social-container">
+        {/* <div className="Social-container">
           <a
             className="Social-bubble"
             href="https://www.linkedin.com/in/tyler-hochrine/"
@@ -43,7 +43,7 @@ function Contact() {
           >
             <GoMarkGithub className="Github-icon" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

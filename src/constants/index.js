@@ -1,8 +1,7 @@
 // Header.js
-export const H1Text =
-  "Hi, I'm Tyler. A recent Clemson grad and software developer.";
+export const H1Text = "Hello! I'm Tyler, and I'm a full-stack developer.";
 export const H4Text =
-  "My passion for new tech and solving problems is why I went into software, and I've grown a love for contributing to new, exciting tech. Most of my experience lies in front-end development, but I enjoy all aspects of software development.";
+  "My passion for emerging tech and love for solving problems is the reason I decided to pursue a career in software.";
 
 // Education.js
 export const EducationText =
@@ -11,22 +10,25 @@ export const ListText = "Spring 2020 Dean’s List Award Recipient";
 
 // Projects.js
 
+// Wave Watcher
+export const WaveInfo =
+  "Living in Boston, I like to keep track of the tides, so I decided to research, design, and build an embedded system. This system displays an animation that tracks the current height of the tide in Boston in near real-time.";
+export const WaveTech = "Python3, Raspberry Pi 4, LED Matrix Panels";
+
 // Lego
 export const LegoInfo =
-  "My favorite project while in school, myself and 3 others made this virtual reality Lego sandbox game using Unity.";
-export const LegoTech = "Unity, C#";
+  "My favorite project while in school, myself and 3 others created a semi-realistic virtual reality Lego sandbox game with an auto-snapping functionality and a fleshed out undo/redo feature.";
+export const LegoTech = "C#, Unity";
 
 // Snake
 export const SnakeInfo =
   "A recreation of the classic snake game in python. I used the tkinter library for a simple menu and the pygame library for the actual game.";
 export const SnakeTech = "Python3";
 
-// Lego VR
-
 // Contact.js
 export const ContactTitle = "Have Any Questions? Contact me!";
 export const ContactText =
-  "My contact info is below. Text, call, or email me. Anything works.";
+  "Please feel free to text, call, or email me. Anything works.";
 
 // Footer.js
 export const FooterText = "Designed & Built by Tyler Hochrine";
